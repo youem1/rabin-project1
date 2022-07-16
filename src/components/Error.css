@@ -1,0 +1,48 @@
+.Error {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    right: 10px;
+    bottom: 10px;
+    visibility: visible;
+    background-color: #f6881b;
+    z-index: 2;
+    text-align: right;
+    direction: rtl;
+    padding: 5px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border: 2pt solid #e07000;
+}
+
+.Error p {
+    margin-top: 15px;
+}
+
+.close-Error {
+    /*background-color: red;
+    */
+    width: 30px;
+    height: 30px;
+    background-image: url('./public/icon/close\(1\).png');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2pt solid rgba(255, 255, 255, 0.74);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+@media screen and (max-width:900px) {
+    .Error {
+        visibility: hidden;
+    }
+}

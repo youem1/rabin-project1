@@ -1,0 +1,386 @@
+.Login {
+    width: fit-content;
+    height: 100vh;
+    background-color: red;
+    /* display: flex; */
+    background-image: url('./public/image/annie-spratt-zA7I5BtFbvw-unsplash.jpg');
+    background-position: center;
+    background-size: 300%;
+    background-repeat: no-repeat;
+}
+
+.content-Login {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: green; */
+    /* display: flex; */
+}
+
+.part-Login {
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    /* display: flex; */
+    /* overflow: hidden; */
+}
+
+.items-Login {
+    width: 100%;
+    height: 100vh;
+    /* background-color: white; */
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: space-between;
+}
+
+.part-Login .inputPart-Login {
+    /* background-color: #3ece12; */
+    width: 51%;
+    text-align: right;
+}
+
+.part-Login .inputPart-Login .inputsItem-Login {
+    position: relative;
+    max-width: 600px;
+    background-color: #e3e3e3a2;
+    height: fit-content;
+    left: 50%;
+    top: 50%;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    margin-right: 20px;
+    overflow: hidden;
+    box-shadow: 2pt 2pt 5pt 2pt rgba(0, 0, 0, 0.507);
+}
+
+.check-Login {
+    /* background-color: red; */
+    /* justify-items: center; */
+    /* align-items: center; */
+    /* align-content: center; */
+    padding-right: 10px;
+}
+
+.check-Login input {
+    width: 25px;
+    height: 25px;
+    float: right;
+}
+
+.check-Login label {
+    margin-right: 10px;
+    font-size: large;
+}
+
+.part-Login .inputPart-Login .titl-Login {
+    background-color: #f6881b;
+    width: 100%;
+    max-width: 600px;
+    height: 65px;
+    font-size: x-large;
+}
+
+.part-Login .inputPart-Login .titl-Login p {
+    padding: 10px;
+}
+
+.part-Login .inputPart-Login .inputs-Login {
+    width: 100%;
+    max-width: 600px;
+    /* background-color: darkorange; */
+    margin-top: 20px;
+    font-size: large;
+}
+
+.part-Login .inputPart-Login .inputs-Login div {
+    /* background-color: aqua; */
+    margin-top: 50px;
+    padding: 25px;
+}
+
+.part-Login .inputPart-Login .inputs-Login div input {
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1pt solid rgb(204, 204, 204);
+    margin-top: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: right;
+    font-size: large;
+}
+
+.part-Login .inputPart-Login .inputs-Login div:nth-child(1) {
+    margin-top: 0px;
+}
+
+.part-Login .inputPart-Login .submit-Login {
+    /* background-color: cadetblue; */
+    text-align: center;
+    margin-top: 30px;
+}
+
+.part-Login .inputPart-Login .submit-Login button {
+    background-color: #f6881b;
+    border: none;
+    width: 285px;
+    height: 55px;
+    font-size: large;
+    border-radius: 13px;
+    margin-bottom: 15px;
+    border: 2pt solid #e07000;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+}
+
+.part-Login .rulesPart-Login {
+    /* position: absolute; */
+    /* background-color: blue; */
+    width: 49%;
+    background-image: url('./public/image/swati-b-2ed7rjyhF4Q-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 3pt 4pt 4pt 4pt rgba(150, 144, 144, 0.349);
+}
+
+.part-Login .rulesPart-Login .rulesItem-Login {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    background-color: rgb(20, 18, 18);
+    opacity: 0.80;
+    backdrop-filter: blur(100%);
+    left: 50%;
+    top: 50%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.part-Login .rulesPart-Login .rulesItem-Login .titl-Login {
+    background-color: rgba(255, 255, 255, 0.288);
+    width: 200px;
+    height: 100px;
+    /*text-align: right;
+    */
+    /* float: right; */
+    padding: 10px;
+    font-size: 20pt;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    color: #ffffff;
+}
+
+.part-Login .rulesPart-Login .rulesItem-Login .titl-Login p {
+    position: relative;
+    direction: left;
+    top: 50%;
+    text-align: center;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(-50, -50%);
+    -moz-transform: translate(-50, -50%);
+    -ms-transform: translate(-50, -50%);
+    -o-transform: translate(-50, -50%);
+}
+
+.part-Login .rulesPart-Login .rulesItem-Login .rule-Login {
+    width: 90%;
+    /* height: 10px; */
+    /* background-color: white; */
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 15pt;
+    font-size: x-large;
+    color: #ffffff;
+}
+
+.part-Login .rulesPart-Login .rulesItem-Login .rule-Login p {
+    /* text-align: right; */
+}
+
+.part-Login .rulesPart-Login .rulesItem-Login .rule-Login:nth-child(1) {
+    margin-top: 0px;
+}
+
+.next-Login {
+    position: fixed;
+    cursor: pointer;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    z-index: -1;
+    background-color: #f6881b;
+}
+
+.next-Login button {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    z-index: -1;
+}
+
+.autograph-Login {
+    position: absolute;
+    color: white;
+    /* background-color: red; */
+    font-size: larger;
+    padding: 5px;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+}
+
+@media screen and (max-width:1400px) {
+    .Login {
+        width: 100%;
+        height: 100vh;
+        /* background-color: red; */
+        /* display: flex; */
+        overflow: hidden;
+    }
+    .content-Login {
+        width: 100%;
+        height: 100%;
+        background-color: green;
+        /* display: flex; */
+    }
+    .part-Login {
+        width: 100%;
+        height: 100%;
+        background-color: aqua;
+        /* display: flex; */
+        /* overflow: hidden; */
+    }
+    .items-Login {
+        width: fit-content;
+        height: 100%;
+        background-color: white;
+        display: flex;
+        /* flex-direction: row-reverse; */
+        justify-content: space-between;
+    }
+    .part-Login .inputPart-Login {
+        background-color: #ffffff;
+        width: 100vw;
+        text-align: right;
+        background-image: url('./public/image/visax-5y8Pg7jP0as-unsplash.jpg');
+        background-position: center;
+        background-size: 300%;
+        background-repeat: no-repeat;
+    }
+    .part-Login .rulesPart-Login {
+        /* position: absolute; */
+        /* background-color: blue; */
+        width: 100vw;
+        background-image: url('./public/image/swati-b-2ed7rjyhF4Q-unsplash.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        box-shadow: 3pt 4pt 4pt 4pt rgba(150, 144, 144, 0);
+    }
+    .next-Login {
+        position: absolute;
+        width: 100px;
+        visibility: visible;
+        height: 60px;
+        /*float: left;
+        */
+        left: 50%;
+        transform: translate(-50%);
+        bottom: 10px;
+        z-index: 0;
+        -webkit-transform: translate(-50%);
+        -moz-transform: translate(-50%);
+        -ms-transform: translate(-50%);
+        -o-transform: translate(-50%);
+        background-color: rgba(255, 0, 0, 0);
+    }
+    .next-Login button {
+        position: relative;
+        width: 150px;
+        height: 55px;
+        background-color: #f6881b;
+        border: 2pt solid #e07000;
+        visibility: visible;
+        left: 50%;
+        transform: translate(-50%);
+        -webkit-transform: translate(-50%);
+        -moz-transform: translate(-50%);
+        -ms-transform: translate(-50%);
+        -o-transform: translate(-50%);
+        border: none;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        font-size: 13.5pt;
+    }
+    .part-Login .rulesPart-Login .rulesItem-Login .rule-Login {
+        width: 90%;
+        /* height: 10px; */
+        /* background-color: white; */
+        margin: 0 auto;
+        margin-top: 25px;
+        padding: 15pt;
+        font-size: 15pt;
+        color: #ffffff;
+    }
+    .part-Login .rulesPart-Login .rulesItem-Login {
+        position: relative;
+        width: 90%;
+        height: 85%;
+        background-color: rgba(20, 18, 18, 0.705);
+        backdrop-filter: blur(100%);
+        left: 50%;
+        top: 10px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        direction: rtl;
+        padding: 15px;
+        transform: translate(-50%);
+        -webkit-transform: translate(-50%);
+        -moz-transform: translate(-50%);
+        -ms-transform: translate(-50%);
+        -o-transform: translate(-50%);
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+}
